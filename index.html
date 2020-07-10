@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main class="wrapper">
+            <h1>Random People Generator</h1>
+            <form name="nameNumber">
+                <div class="inputBox">
+                    <label for="number">How many people you want </label>
+                    <input
+                        type="number"
+                        name="number"
+                        id="number"
+                        placeholder="Enter Number"
+                    />
+                </div>
+                <div class="inputBox">
+                    <div class="inline">
+                        <input type="checkbox" name="pic" id="pic" />
+                        <label for="pic">Picture</label>
+                    </div>
+                    <div class="inline">
+                        <input type="checkbox" name="country" id="country" />
+                        <label for="country">Country</label>
+                    </div>
+                    <div class="inline">
+                        <input type="checkbox" name="email" id="email" />
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inline">
+                        <input type="checkbox" name="phone" id="phone" />
+                        <label for="phone">Phone</label>
+                    </div>
+                </div>
+                <button type="submit">Go</button>
+            </form>
+            <div id="app">
+                <div id="cards"></div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
