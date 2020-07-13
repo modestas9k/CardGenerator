@@ -2,3 +2,5 @@
 
 # CardGenerator
 Random people card generator
+
+https://randompplgenerator.netlify.app/
