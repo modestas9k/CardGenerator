@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Generator</title>
         <link rel="stylesheet" href="normalize.css" />
         <link rel="stylesheet" href="style.css" />
     </head>
@@ -12,11 +12,12 @@
             <h1>Random People Generator</h1>
             <form name="nameNumber">
                 <div class="inputBox">
-                    <label for="number">How many people you want </label>
+                    <label for="number">How many people you want</label>
                     <input
                         type="number"
                         name="number"
                         id="number"
+                        value="20"
                         placeholder="Enter Number"
                     />
                 </div>
@@ -52,19 +53,34 @@
                 </div>
                 <div class="inputBox">
                     <div class="inline">
-                        <input type="checkbox" name="pic" id="pic" checked/>
+                        <input type="checkbox" name="pic" id="pic" checked />
                         <label for="pic">Picture</label>
                     </div>
                     <div class="inline">
-                        <input type="checkbox" name="country" id="country" checked/>
+                        <input
+                            type="checkbox"
+                            name="country"
+                            id="country"
+                            checked
+                        />
                         <label for="country">Country</label>
                     </div>
                     <div class="inline">
-                        <input type="checkbox" name="email" id="email" checked/>
+                        <input
+                            type="checkbox"
+                            name="email"
+                            id="email"
+                            checked
+                        />
                         <label for="email">Email</label>
                     </div>
                     <div class="inline">
-                        <input type="checkbox" name="phone" id="phone" checked/>
+                        <input
+                            type="checkbox"
+                            name="phone"
+                            id="phone"
+                            checked
+                        />
                         <label for="phone">Phone</label>
                     </div>
                 </div>
